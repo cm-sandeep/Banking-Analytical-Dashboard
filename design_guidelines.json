@@ -1,0 +1,174 @@
+{
+  "typography": {
+    "font_family": {
+      "headings": "Manrope, sans-serif",
+      "body": "IBM Plex Sans, sans-serif",
+      "code": "JetBrains Mono, monospace"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700,
+      "black": 900
+    },
+    "sizes": {
+      "h1": "text-4xl md:text-5xl font-bold tracking-tight",
+      "h2": "text-3xl font-bold tracking-tight",
+      "h3": "text-2xl font-semibold tracking-tight",
+      "body": "text-base leading-relaxed",
+      "small": "text-sm text-muted-foreground",
+      "tiny": "text-xs uppercase tracking-wider font-medium"
+    }
+  },
+  "colors": {
+    "theme": "dark",
+    "palette": {
+      "background": "#0B0E14",
+      "foreground": "#F8FAFC",
+      "card": "#151921",
+      "card_foreground": "#F8FAFC",
+      "primary": "#006FCF",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#FDBF5E",
+      "secondary_foreground": "#0B0E14",
+      "muted": "#1E293B",
+      "muted_foreground": "#94A3B8",
+      "accent": "#1E293B",
+      "accent_foreground": "#F8FAFC",
+      "destructive": "#EF4444",
+      "destructive_foreground": "#FFFFFF",
+      "border": "#2D3748",
+      "input": "#2D3748",
+      "ring": "#006FCF",
+      "success": "#22C55E",
+      "warning": "#F59E0B",
+      "info": "#3B82F6"
+    },
+    "charts": {
+      "chart_1": "#006FCF",
+      "chart_2": "#FDBF5E",
+      "chart_3": "#22C55E",
+      "chart_4": "#EF4444",
+      "chart_5": "#8B5CF6"
+    }
+  },
+  "layout": {
+    "grid_system": "Control Room Grid",
+    "spacing": {
+      "container_padding": "p-6 md:p-8 lg:p-12",
+      "section_gap": "gap-6 md:gap-8",
+      "component_gap": "gap-4"
+    },
+    "structure": {
+      "sidebar_width": "w-64",
+      "header_height": "h-16",
+      "max_width": "max-w-7xl mx-auto"
+    }
+  },
+  "components": {
+    "cards": {
+      "style": "bg-card border border-white/10 shadow-sm rounded-lg",
+      "hover": "hover:border-primary/50 transition-colors duration-300"
+    },
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-md rounded-md px-4 py-2 font-medium transition-all active:scale-95",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-sm rounded-md px-4 py-2 font-medium transition-all active:scale-95",
+      "outline": "border border-input bg-transparent hover:bg-accent hover:text-accent-foreground rounded-md px-4 py-2 transition-all active:scale-95",
+      "ghost": "hover:bg-accent hover:text-accent-foreground rounded-md px-4 py-2 transition-all"
+    },
+    "inputs": {
+      "style": "bg-muted/50 border-input focus:ring-2 focus:ring-primary/50 rounded-md px-3 py-2 text-sm placeholder:text-muted-foreground"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "bg-black/40 backdrop-blur-xl border border-white/10",
+    "gradients": {
+      "subtle_glow": "bg-gradient-to-tr from-primary/10 via-transparent to-transparent",
+      "text_gradient": "bg-clip-text text-transparent bg-gradient-to-r from-white to-white/60"
+    },
+    "borders": "border border-white/5",
+    "shadows": {
+      "glow": "shadow-[0_0_20px_rgba(0,111,207,0.15)]"
+    }
+  },
+  "motion": {
+    "page_transition": {
+      "initial": { "opacity": 0, "y": 20 },
+      "animate": { "opacity": 1, "y": 0 },
+      "exit": { "opacity": 0, "y": -20 },
+      "transition": { "duration": 0.3, "ease": "easeOut" }
+    },
+    "hover_scale": {
+      "whileHover": { "scale": 1.02 },
+      "whileTap": { "scale": 0.98 }
+    },
+    "stagger": {
+      "container": {
+        "hidden": { "opacity": 0 },
+        "show": {
+          "opacity": 1,
+          "transition": { "staggerChildren": 0.1 }
+        }
+      },
+      "item": {
+        "hidden": { "opacity": 0, "y": 10 },
+        "show": { "opacity": 1, "y": 0 }
+      }
+    }
+  },
+  "image_urls": {
+    "user_avatars": [
+      {
+        "url": "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NzUxNDQxM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Professional woman in blazer",
+        "category": "User Profile"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758518727888-ffa196002e59?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NzUxNDQxM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Blonde businesswoman",
+        "category": "Team Member"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1629507208649-70919ca33793?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NzUxNDQxM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Man in blue shirt",
+        "category": "Executive"
+      }
+    ],
+    "merchant_logos": [
+      {
+        "url": "https://images.unsplash.com/photo-1762939079730-23708c0dd337?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB0ZWNoJTIwY29tcGFueSUyMGxvZ28lMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzY3NTE0NDE1fDA&ixlib=rb-4.1.0&q=85",
+        "description": "QC Med Logo",
+        "category": "Merchant Logo"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600848478834-e478f4c6bfcc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjB0ZWNoJTIwY29tcGFueSUyMGxvZ28lMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzY3NTE0NDE1fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Xbox/Tech Logo",
+        "category": "Merchant Logo"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Implement the 'Control Room' grid layout for the main dashboard.",
+    "Use the specified color palette strictly. Do not introduce new colors unless absolutely necessary for data visualization.",
+    "Ensure all interactive elements have hover states defined in the 'components' section.",
+    "Use 'Manrope' for all headings and 'IBM Plex Sans' for body text. Import these fonts via Google Fonts in index.html or CSS.",
+    "Use 'JetBrains Mono' for the SQL and PySpark code blocks.",
+    "Implement the 'Glassmorphism' effect for the sidebar and top navigation bar.",
+    "Use 'recharts' for all data visualization. Style the charts to match the dark theme (hide grid lines or make them very subtle, use custom tooltips).",
+    "Ensure the 'Merchant Analytics' page uses a dense data grid.",
+    "The 'Fraud Detection' page should use the 'destructive' color (Red) for alerts and high-risk scores.",
+    "Mock data should be realistic banking transactions. Use the 'faker' library or static JSON data.",
+    "All buttons and inputs must use the defined rounded corners (0.5rem) and shadow styles.",
+    "Add 'data-testid' to all interactive elements."
+  ],
+  "universal_guidelines": [
+    "Do not use generic centered layouts. Use asymmetry and the 'Control Room' grid.",
+    "Avoid 'AI slop' aesthetics (generic gradients, default Bootstrap looks).",
+    "Use 2-3x more spacing than typical designs for breathing room, even in dense dashboards.",
+    "Every interaction needs micro-animations (hover, focus, active).",
+    "Use 'sonner' for toast notifications.",
+    "Components must use named exports.",
+    "Pages must use default exports."
+  ]
+}
